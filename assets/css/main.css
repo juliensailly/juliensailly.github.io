@@ -1286,8 +1286,8 @@ button {
   -ms-transition: -ms-transform 0.325s ease-in-out,
     -ms-filter 0.325s ease-in-out;
   transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-  background-image: url("../../images/panoramic-shot-mountain-cadini-di-misurina-italian-alps.jpg");
-  animation: bg_scroll 60s linear infinite;
+  background-image: url("../../images/panoramic-shot-mountain-cadini-di-misurina-italian-alps\ blurred.jpg");
+  animation: bg_scroll 120s linear infinite;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1298,8 +1298,11 @@ button {
   0% {
     background-position: 0%;
   }
-  100% {
+  50% {
     background-position: 100%;
+  }
+  100% {
+    background-position: 0%;
   }
 }
 
