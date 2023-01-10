@@ -112,6 +112,17 @@ section {
 
 body {
   line-height: 1;
+  background-image: url(../../images/panoramic-shot-mountain-cadini-di-misurina-italian-alps.jpg);
+  animation: bg_scroll 60s linear infinite;
+}
+
+@keyframes bg_scroll {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
 }
 
 /* Removing the scrollbar */
