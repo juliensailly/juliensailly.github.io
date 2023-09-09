@@ -1,0 +1,29 @@
+/* Fonts importation */
+
+
+/* General styles */
+
+:root {
+    --background: #000000;
+    --background-lighter: #1C2129;
+    --main-color: #FF3800;
+    --background-emphaze-color: #FEB91E;
+    --text-color: #F7F7F7;
+
+    --main-font-family: 'Roboto', sans-serif;
+    --title-font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div#container {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--background);
+    color: var(--text-color);
+    font-family: var(--main-font-family);
+}
