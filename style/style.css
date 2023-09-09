@@ -4,14 +4,14 @@
 /* General styles */
 
 :root {
-    --background: #000000;
-    --background-lighter: #1C2129;
-    --main-color: #FF3800;
-    --background-emphaze-color: #FEB91E;
+    --background: #1C2129;
+    --emphaze-color: #FEB91E;
     --text-color: #F7F7F7;
 
     --main-font-family: 'Roboto', sans-serif;
     --title-font-family: 'Roboto', sans-serif;
+
+    color-scheme: dark;
 }
 
 * {
@@ -20,10 +20,56 @@
     box-sizing: border-box;
 }
 
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+p {
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+a:hover {
+    color: var(--emphaze-color);
+}
+
+/* Container */
+
 div#container {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
     background-color: var(--background);
     color: var(--text-color);
     font-family: var(--main-font-family);
+}
+
+
+/* Panels */
+
+.panel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "left right";
+    width: 100%;
+    height: 100vh;
+    border: var(--text-color) solid 1px;
+    scroll-snap-align: start;
+}
+
+main {
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+    overflow-y: scroll;
 }
