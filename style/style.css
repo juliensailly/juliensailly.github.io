@@ -30,12 +30,11 @@ h1 {
 }
 
 h2 {
-}
-
-h3 {
-}
-
-p {
+    font-family: var(--title-font-family);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
 }
 
 a {
@@ -107,4 +106,39 @@ main {
 .firstLook .sideText p {
     font-size: 1.5rem;
     margin-bottom: 1rem;
+}
+
+/* Presentation */
+
+article {
+    grid-area: 2 / 2 / 8 / 8;
+}
+
+article p {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+/* Intership */
+
+#intership a {
+    display: block;
+    text-align: center;
+}
+
+button {
+    background-color: var(--emphaze-color);
+    color: var(--background);
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    margin: 1rem auto;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #f7f7f7;
 }
