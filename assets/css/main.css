@@ -1287,7 +1287,7 @@ button {
   -ms-transition: -ms-transform 0.325s ease-in-out,
     -ms-filter 0.325s ease-in-out;
   transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-  background-image: url("../../images/panoramic-shot-mountain-cadini-di-misurina-italian-alps\ blurred.jpg");
+  background-image: url("https://avatars.githubusercontent.com/u/46823570");
   animation: bg_scroll 120s ease-in-out infinite;
   background-position: center;
   background-size: cover;
